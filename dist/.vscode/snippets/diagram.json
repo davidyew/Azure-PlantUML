@@ -335,22 +335,6 @@
       "$0"
     ]
   },
-  "AzureHDInsight": {
-    "prefix": "Azure H D Insight",
-    "description": "Add Azure H D Insight to diagram",
-    "body": [
-      "AzureHDInsight(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureHDInsight_Descr": {
-    "prefix": "Azure H D Insight with Description",
-    "description": "Add Azure H D Insight with Description to diagram",
-    "body": [
-      "AzureHDInsight(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzureHDInsightCluster": {
     "prefix": "Azure H D Insight Cluster",
     "description": "Add Azure H D Insight Cluster to diagram",
@@ -383,19 +367,19 @@
       "$0"
     ]
   },
-  "AzureStreamAnalytics": {
-    "prefix": "Azure Stream Analytics",
-    "description": "Add Azure Stream Analytics to diagram",
+  "AzurePurviewAccount": {
+    "prefix": "Azure Purview Account",
+    "description": "Add Azure Purview Account to diagram",
     "body": [
-      "AzureStreamAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "AzurePurviewAccount(${1:alias}, \"${2:label}\", \"${3:technology}\")",
       "$0"
     ]
   },
-  "AzureStreamAnalytics_Descr": {
-    "prefix": "Azure Stream Analytics with Description",
-    "description": "Add Azure Stream Analytics with Description to diagram",
+  "AzurePurviewAccount_Descr": {
+    "prefix": "Azure Purview Account with Description",
+    "description": "Add Azure Purview Account with Description to diagram",
     "body": [
-      "AzureStreamAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "AzurePurviewAccount(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -847,6 +831,70 @@
       "$0"
     ]
   },
+  "AzureVirtualDesktop": {
+    "prefix": "Azure Virtual Desktop",
+    "description": "Add Azure Virtual Desktop to diagram",
+    "body": [
+      "AzureVirtualDesktop(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktop_Descr": {
+    "prefix": "Azure Virtual Desktop with Description",
+    "description": "Add Azure Virtual Desktop with Description to diagram",
+    "body": [
+      "AzureVirtualDesktop(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopApplicationGroup": {
+    "prefix": "Azure Virtual Desktop Application Group",
+    "description": "Add Azure Virtual Desktop Application Group to diagram",
+    "body": [
+      "AzureVirtualDesktopApplicationGroup(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopApplicationGroup_Descr": {
+    "prefix": "Azure Virtual Desktop Application Group with Description",
+    "description": "Add Azure Virtual Desktop Application Group with Description to diagram",
+    "body": [
+      "AzureVirtualDesktopApplicationGroup(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopHostPool": {
+    "prefix": "Azure Virtual Desktop Host Pool",
+    "description": "Add Azure Virtual Desktop Host Pool to diagram",
+    "body": [
+      "AzureVirtualDesktopHostPool(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopHostPool_Descr": {
+    "prefix": "Azure Virtual Desktop Host Pool with Description",
+    "description": "Add Azure Virtual Desktop Host Pool with Description to diagram",
+    "body": [
+      "AzureVirtualDesktopHostPool(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopWorkspace": {
+    "prefix": "Azure Virtual Desktop Workspace",
+    "description": "Add Azure Virtual Desktop Workspace to diagram",
+    "body": [
+      "AzureVirtualDesktopWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualDesktopWorkspace_Descr": {
+    "prefix": "Azure Virtual Desktop Workspace with Description",
+    "description": "Add Azure Virtual Desktop Workspace with Description to diagram",
+    "body": [
+      "AzureVirtualDesktopWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureVirtualMachine": {
     "prefix": "Azure Virtual Machine",
     "description": "Add Azure Virtual Machine to diagram",
@@ -943,6 +991,22 @@
       "$0"
     ]
   },
+  "AzureContainerApp": {
+    "prefix": "Azure Container App",
+    "description": "Add Azure Container App to diagram",
+    "body": [
+      "AzureContainerApp(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureContainerApp_Descr": {
+    "prefix": "Azure Container App with Description",
+    "description": "Add Azure Container App with Description to diagram",
+    "body": [
+      "AzureContainerApp(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureContainerInstance": {
     "prefix": "Azure Container Instance",
     "description": "Add Azure Container Instance to diagram",
@@ -1004,38 +1068,6 @@
     "description": "Add Azure Service Environment with Description to diagram",
     "body": [
       "AzureServiceEnvironment(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzureServiceFabricMesh": {
-    "prefix": "Azure Service Fabric Mesh",
-    "description": "Add Azure Service Fabric Mesh to diagram",
-    "body": [
-      "AzureServiceFabricMesh(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureServiceFabricMesh_Descr": {
-    "prefix": "Azure Service Fabric Mesh with Description",
-    "description": "Add Azure Service Fabric Mesh with Description to diagram",
-    "body": [
-      "AzureServiceFabricMesh(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzureWebAppForContainers": {
-    "prefix": "Azure Web App For Containers",
-    "description": "Add Azure Web App For Containers to diagram",
-    "body": [
-      "AzureWebAppForContainers(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureWebAppForContainers_Descr": {
-    "prefix": "Azure Web App For Containers with Description",
-    "description": "Add Azure Web App For Containers with Description to diagram",
-    "body": [
-      "AzureWebAppForContainers(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -2236,6 +2268,22 @@
     "description": "Add Azure Intune Windows with Description to diagram",
     "body": [
       "AzureIntuneWindows(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AppConfiguration": {
+    "prefix": "App Configuration",
+    "description": "Add App Configuration to diagram",
+    "body": [
+      "AppConfiguration(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AppConfiguration_Descr": {
+    "prefix": "App Configuration with Description",
+    "description": "Add App Configuration with Description to diagram",
+    "body": [
+      "AppConfiguration(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
