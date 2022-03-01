@@ -301,6 +301,7 @@ Storage | AzureStorageContainer </br> (Azure Storage Container) | ![AzureStorage
 Storage | AzureStorSimple </br> (Azure Stor Simple) | ![AzureStorSimple](dist/Storage/AzureStorSimple.png?raw=true) | ![AzureStorSimple](dist/Storage/AzureStorSimple(m).png?raw=true) | Storage/AzureStorSimple.puml
 **Web** | | | | **Web/all.puml**
 Web | AzureAdvancedTools </br> (Azure Advanced Tools) | ![AzureAdvancedTools](dist/Web/AzureAdvancedTools.png?raw=true) | ![AzureAdvancedTools](dist/Web/AzureAdvancedTools(m).png?raw=true) | Web/AzureAdvancedTools.puml
+Web | AzureApiApp </br> (Azure Api App) | ![AzureApiApp](dist/Web/AzureApiApp.png?raw=true) | ![AzureApiApp](dist/Web/AzureApiApp(m).png?raw=true) | Web/AzureApiApp.puml
 Web | AzureAPIManagement </br> (Azure API Management) | ![AzureAPIManagement](dist/Web/AzureAPIManagement.png?raw=true) | ![AzureAPIManagement](dist/Web/AzureAPIManagement(m).png?raw=true) | Web/AzureAPIManagement.puml
 Web | AzureAppServiceCertificate </br> (Azure App Service Certificate) | ![AzureAppServiceCertificate](dist/Web/AzureAppServiceCertificate.png?raw=true) | ![AzureAppServiceCertificate](dist/Web/AzureAppServiceCertificate(m).png?raw=true) | Web/AzureAppServiceCertificate.puml
 Web | AzureAppServiceDomain </br> (Azure App Service Domain) | ![AzureAppServiceDomain](dist/Web/AzureAppServiceDomain.png?raw=true) | ![AzureAppServiceDomain](dist/Web/AzureAppServiceDomain(m).png?raw=true) | Web/AzureAppServiceDomain.puml
@@ -314,3 +315,4 @@ Web | AzureQuota </br> (Azure Quota) | ![AzureQuota](dist/Web/AzureQuota.png?raw
 Web | AzureSearch </br> (Azure Search) | ![AzureSearch](dist/Web/AzureSearch.png?raw=true) | ![AzureSearch](dist/Web/AzureSearch(m).png?raw=true) | Web/AzureSearch.puml
 Web | AzureSignalRService </br> (Azure SignalR Service) | ![AzureSignalRService](dist/Web/AzureSignalRService.png?raw=true) | ![AzureSignalRService](dist/Web/AzureSignalRService(m).png?raw=true) | Web/AzureSignalRService.puml
 Web | AzureWebApp </br> (Azure Web App) | ![AzureWebApp](dist/Web/AzureWebApp.png?raw=true) | ![AzureWebApp](dist/Web/AzureWebApp(m).png?raw=true) | Web/AzureWebApp.puml
+Web | AzureWebJob </br> (Azure Web Job) | ![AzureWebJob](dist/Web/AzureWebJob.png?raw=true) | ![AzureWebJob](dist/Web/AzureWebJob(m).png?raw=true) | Web/AzureWebJob.puml

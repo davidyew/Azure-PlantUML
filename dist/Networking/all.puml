@@ -185,6 +185,17 @@ AzureEntityColoring(AzureLoadBalancer)
 !define AzureLoadBalancer(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLoadBalancer, AzureLoadBalancer)
 !define AzureLoadBalancer(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLoadBalancer, AzureLoadBalancer)
 
+sprite $AzureLocalNetworkGateway [70x70/16z] {
+lTO7YWCn341Hbv4cI_FzRxifcetue83a9P_gzi1KhIyrZxMVtFiFP9yHQnVPPyIrW-mpWee8Ao9i0-aTJ0bfhO4f8M1g29WQKcL4BKECqQiQOXqPHl-QlNU3
+-hsXPE8KZNPlACeWiQ8P95OqWyIAnaX6qGGIA36Z2ILaDA_eHqH6h0m14o4gRKJAQA8Xer3m1s-AHenISGmGAkeHAiOGCGMCHuv-rTgR0NAlNnsUKMisD8YW
+gMz6JsisDa_NY8-XeCChyb5PK8202PMBaNarF49cp2lno9r1uX7koucMHKOymWE943BY4Pu8aOWHXunsRxWZ0H8oAcUadA90m30g5X2MLGnX2SKZBAUig8oo
+ucw14Y0XmrxAZIs40YM1W3am1IKGnvn6M0gamlGJI8P98cIiNaN84AanGAfClm4fCK1o5H7sWrOj8DM0L0DI3KWr8DM0LDFrhNu1
+}
+
+AzureEntityColoring(AzureLocalNetworkGateway)
+!define AzureLocalNetworkGateway(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLocalNetworkGateway, AzureLocalNetworkGateway)
+!define AzureLocalNetworkGateway(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLocalNetworkGateway, AzureLocalNetworkGateway)
+
 sprite $AzureNAT [70x70/16z] {
 hTG7SkCm44JHdWHuxt_XBG1qbmY5jaJz2WuOFcP25e7hPLL-0o5p3T6CHZIZaUiCYIjCRLr3s3M4NK1ICne9k6Oq0cX68nlpCQ8PZMX68vhHY68qae1YD59f
 8yniL8eXqhPo8Msl128KCW8H2Xc128MCG8H2HY128ICGeP3HY5R8456APeY4cuTKE4Q6Czm2LgyKZY7RYWXLs7P-jIcFncnDq8ogSW0vsvJAsV5s-_ml6Hxe

@@ -1,0 +1,9 @@
+sprite $AzureApiApp [50x50/16z] {
+pTHN5e9044JHwL3rw_vNAz37nZJ9x3FBN38S_ZEV3bjy34GV5CWU1dWOu660Xm4U1dWKf92r9k0QT8sHHsNDEe0nOaw03mhmGG7E2PKrjG0JmgHaCYMaNAPZ
+KMuI34IEKnKvVPqHwbk0vefrH6o5HyXXnRl2pVpqiO-JleXidtTymr1eW2282IsXMSb0RZ_4pBGYAdciLZOZZFIMa1aXAIALx7exx68BmQXoGTZ5QIZncLK4
+m209SkysH808fXPVPHFe2HTndjDSLak0LoCGeA0jG9J846kMXx4faAjnbR4fm2qR0bPlPPc0JG7kxRSVTTPAS1dSpS562UR3eu07h3q4_hC5
+}
+
+AzureEntityColoring(AzureAPIApp)
+!define AzureApiApp(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAPIApp, AzureAPIApp)
+!define AzureApiApp(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAPIApp, AzureAPIApp)
